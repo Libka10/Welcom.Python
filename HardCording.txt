@@ -18,3 +18,13 @@ you should ask yourself: Would my answer be correct even if the provided variabl
 
 For example, in this following code, if you’re asked in an exercise to create a variable zx and assign it the value of the sum of the value of y and the value of x, writing zx = 55 is hard-coding.
 
+
+The operation 20 + 35 may be easy math to do in your head or with a calculator, 
+but when you learn to program, you want to train yourself to notice useful patterns of how to solve problems, which will make your life easier (perhaps beyond programming, even).
+
+The correct way to answer that sort of exercise would be to write: zx = y + x (or zx = x + y, as you were just reminded of the order of operations).
+ That is not hard-coding, and it will be correct no matter what the values of x and y are.
+
+In the code above, if the value of x were 40, 55 would not be the correct value for zx to have. But zx = y + x would still be absolutely correct.
+
+Try as much as you can not to rely on your brilliant but fallible human brain to do computation when you program – use your brain to determine how to write the correct code to solve the problem for you! That’s why we require you to avoid hard -coding for most exercises in this book.
